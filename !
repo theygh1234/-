@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>63주년 QR코드 event</title>
+</head>
+
+<body>
+    <!-- 버튼 추가 -->
+    <button id="myButton">참가(0명 참여중)</button>
+
+    <!-- JavaScript 코드 -->
+    <script>
+        // 버튼 요소 가져오기
+        var button = document.getElementById('myButton');
+
+        // 버튼에 클릭 이벤트 리스너 추가
+        button.addEventListener('click', function() {
+            alert('참가자 총 1명으로 당첨되었습니다. (경품:  20,000$)는 사실이 아닙니다. 이태호 선생님 탄실일 축하!🎉🎉🎉🎉🎉');
+        });
+    </script>
+</body>
+</html>
+
+<body>
+    <header>
+        <h1>63주년 QR코드 event🎉</h1> </header>
+
+    <main>
+        <section>
+            <p>당신은 참가할 수 있는 권한이 있습니다. 행운을 잡으세요.(참가종료까지 1분 남음)</p>
+        </section>
+
+        <section>
+            <h2>참가 방법</h2>
+            <p>참가 버튼을 누른후 참가 종료 후에 결과를 발표합니다.(참가자 수가 많을 경우 결과 발표 시간이 연장될 수 있습니다.)</p>
+        </section>
+
+	<section>
+            <h2>참고 사항</h2>
+            <p>19세 미만은 참여를 허용하지 않습니다.</p>
+	</section>
+    </main>
+
+    <footer>
+        <p>© 2024 QR 이벤트</p>
+    </footer>
+</body>
+</html>
